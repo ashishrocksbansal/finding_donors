@@ -8,21 +8,28 @@ This is the 1st project for the Machine Learning Engineer Nanodegree. In this pr
 Here, I first investigate the factors that affect the likelihood of charity donations being made. Then, I use a training and predicting pipeline to evaluate the accuracy and efficiency/speed of three supervised machine learning algorithms (GaussianNB, SVC, Adaboost). I then proceed to fine tune the parameters of the algorithm that provides the highest donation yield (while reducing mailing efforts/costs). Finally, I also explore the impact of reducing number of features in data.
 
 Install
+
 This project requires Python 2.7 and the following Python libraries installed:
 
 NumPy
+
 Pandas
+
 matplotlib
+
 scikit-learn
+
 You will also need to have software installed to run and execute an iPython Notebook
 
 We recommend students install Anaconda, a pre-packaged Python distribution that contains all of the necessary libraries and software for this project.
 
 Code
+
 The main code for this project is located in the finding_donors.ipynb notebook file. Additional supporting code for visualizing the necessary graphs can be found in visuals.py. Additionally, the Report.html file contains a snapshot of the main code in the jupyter notebook with all code cells executed.
 
 Run
 In a terminal or command window, navigate to the top-level project directory finding_donors/ (that contains this README) and run one of the following commands:
+
 
 ipython notebook finding_donors.ipynb
 or
@@ -63,6 +70,7 @@ capital-loss: Monetary Capital Losses
 hours-per-week: Average Hours Per Week Worked
 
 native-country: Native Country (United-States, Cambodia, England, Puerto-Rico, Canada, Germany, Outlying-US(Guam-USVI-etc), India, Japan, Greece, South, China, Cuba, Iran, Honduras, Philippines, Italy, Poland, Jamaica, Vietnam, Mexico, Portugal, Ireland, France, Dominican-Republic, Laos, Ecuador, Taiwan, Haiti, Columbia, Hungary, Guatemala, Nicaragua, Scotland, Thailand, Yugoslavia, El-Salvador, Trinadad&Tobago, Peru, Hong, Holand-Netherlands)
+
 Target Variable
 
 income: Income Class (<=50K, >50K)
